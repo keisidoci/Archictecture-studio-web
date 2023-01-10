@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #021315;
+    font-size: 1em;
+    line-height: 1.5;
+    background-color: #e6e5e5;
+  }
+/* Navbar */
+.navbar {
+  position: absolute;
+  z-index: 9;
+  display: flex;
+
+}
+/* Video Banner */
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 100%; 
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  bottom: 50%;
+  background: transparent;
+  color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+}
+
+/* HEAD */
+.head {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+/* BODY */
+.teksti {
+  font-size: 25px;
+  margin: 70px 100px;
+  text-align: center;
+}
+#service {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: 'Kanit', sans-serif;
+}
+.card img {
+  height: 450px;
+  object-fit: cover;
+}
+.card-img-overlay {
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(to left bottom,
+      #021315,
+      #0b1d1f,
+      #102729,
+      #143233,
+      #193d3d,
+      #2c4e51,
+      #406065,
+      #54737a,
+      #7e919b,
+      #a8b1ba,
+      #d1d3d8,
+      #f7f7f7);
+}
+ .card:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.card-body {
+  color: #f7f7f7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* CAREERS */
+.careers{
+  margin-top: 45vh;
+  margin-bottom: 45vh;
+}
+.left {
+text-align: center;
+border-right: 1px solid black;
+transform: translate(-10%, -10%);
+font-family: 'Kanit', sans-serif;
+font-size: larger;
+}
+.right {
+  font-size: x-large;
+  text-align: center;
+}
+.apply {
+  margin-top: 20px;
+  width: 25%;
+}
+/* Footer */
+.home {
+  text-decoration: none;
+  text-align: center;
+}
+#socials {
+  font-size: large;
+  text-decoration: none;
+} 
+@media screen and (max-width: 1024px) {
+  .content{
+    position: absolute;
+text-align: center;
+bottom: 50%;
+  }
+}

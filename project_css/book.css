@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #e9f2f3;
+  font-size: 1em;
+  line-height: 1.5;
+  background-color: #e6e5e5;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../project web videos and images/bgr4.jpg");
+    background-size: cover;
+}
+.navbar {
+background-color: white;
+  display: flex;
+}
+.navbar-brand .navbar-item {
+  color: #021315;
+}
+.home {
+  text-decoration: none;
+  text-align: center;
+}
+#socials {
+  font-size: large;
+  text-decoration: none;
+} 
+#contact {
+  font-size: x-large;
+}
+.quote {
+  text-align: right;
+  margin-top: 60px;
+}
+#mesazh_email {
+  font-size: small;
+  font-style: oblique;
+  color: red;
+}
+#mesazh_name {
+  font-size: small;
+  font-style: oblique;
+  color: red;
+}
+.card-body{
+  color: #021315;
+}
