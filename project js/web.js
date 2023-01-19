@@ -30,3 +30,14 @@ else {
         return true;
 }
 }
+
+const container = document.querySelector('.img');
+const image = document.querySelector('.project');
+
+container.addEventListener('mouseover', function(){
+  image.requestFullscreen();
+});
+
+container.addEventListener('mouseout', function(){
+  document.exitFullscreen();
+});
