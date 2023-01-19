@@ -8,7 +8,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   background-color: #e6e5e5;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../project web videos and images/bgr4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../photos/bgr4.jpg");
     background-size: cover;
 }
 .navbar {

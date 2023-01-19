@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="project_css/book.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="project_css/interior.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+<!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
@@ -22,13 +29,16 @@
             <i class="fas fa-gem me-3 text-secondary" style="font-size: larger;"></i>
              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active"  aria-current="page" href="project_web.html">Home</a>
+                <a class="nav-link active"  aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="careers.html">Careers</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="bool.html">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="contact.html">Contact</a>
@@ -38,37 +48,34 @@
         </div>
       </nav>
       <!-- End Navbar -->
-<div class="container my-5">
-<div class="row">
-<div class="col-sm-12 col-md-12 col-lg-6">
-  <h4>Choose your service</h4>
-<p>Are you ready to experience transformations? Creativity and Innovation is the key! The interior can affect 
-  the quality of life within a space. While we create a space we are trying to provide holistic solutions keeping in mind the clients target. 
-  The Interior Services turns a neutral space into usable, functional, comfortable area.</p>
- <p>Our Architectural practice provides Design Services locally and internationally. 
-  Our long established  licensed practice has been designing beautiful interiors including hotels, residential homes, offices and shops from Cyprus, Nigeria until London and around the world for more than fifteen years, 
-  using intelligent-design solutions to resolve the most complicated projects.</p>
-</div>
-<div class="col-sm-12 col-md-12 col-lg-6">
-<h4>Fill in the form to proceed</h4>
-<form method="POST" onsubmit="event.preventDefault(); reserve()">
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    <span id="mesazh_email"></span>
-  </div>
 
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Notes:</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div class="mb-3 mt-5">
-    <input type="submit" class="btn btn-outline-light" value="Send!">
-  </div>
-</form>
-</div>
-</div>
-</div>
+<h3 class="title">FACADE DESIGN</h3>
+<p class="text">Our facade design process provides a tailored service to every client, from concept inception through to operational use. Independent, technical advice and 
+  robust engineered solutions are delivered to provide clarity to architectural designs, and therefore confidence in project costs.
+  Key to this process is applying existing knowledge and further research into materials, facade systems and manufacturing techniques to suit the client’s 
+  expectations while complimenting the architect’s vision. After facade construction, we remain involved in the compliance monitoring on site,
+   with periodic site visits and reporting to the Client team or to the main contractor.</p>
+<img src="photos/facade1.jpg" alt="" srcset="" class="idea">
+
+<h3 class="title mt-5">OFFICE DESIGN</h3>
+<p class="text">Founded to provide world class working environments with an emphasis on quality, innovation, technical design and 
+  unparalleled delivery and service that is aiming to foster agility and empower technology in today working environment.
+  We transforme a partially below-grade expansion space into a dynamic, welcoming place where people want to be. The elegant design 
+  celebrates the company’s culture. We bring natural light into the open work area and glass meeting rooms through the high windows
+   on one side and the sky-lit atrium on the other.
+</p>
+<img src="photos/office.jpg" alt="" srcset="" class="idea">
+
+<h3 class="title mt-5">INTERIOR DESIGN</h3>
+<p class="text">The interior is an integral part of the design. When designing a building it is impossible not to think of its interior. 
+  Therefore, the third pillar of our business is interior design. Our advantage is a full support of design - from architectural concept, through detailed design, author's supervision, 
+  to advice on selecting and purchasing equipment. 
+  We recommend verified contractors. We focus on simplicity, great natural materials, good ornaments and the highest quality equipment. 
+</p>
+<img src="photos/interior.jpg" alt="" srcset="" class="idea">
+
+
+
          <!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted">
     <!-- Section: Social media -->
@@ -97,7 +104,7 @@
             <h5 class="text-uppercase fw-bold mb-4 home">
               <i class="fas fa-gem me-3 text-secondary"></i>Future Arch Studio
             </h5>
-           <a href="project_web.html" class="link-secondary home"> <h6 class="fw-bold mb-4">
+           <a href="index.html" class="link-secondary home"> <h6 class="fw-bold mb-4">
               Home
             </h6>
             </a>
@@ -107,6 +114,10 @@
             </a>
             <a href="contact.html" class="link-secondary home"> <h6 class="fw-bold mb-4">
               Contact
+            </h6>
+            </a>
+            <a href="about.html" class="link-secondary home"> <h6 class="fw-bold mb-4">
+              About us
             </h6>
             </a>
            <a href="careers.html" class="link-secondary home"> <h6 class="fw-bold mb-4">

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: #28292a;
+    font-size: 1em;
+    line-height: 1.5;
+    background-color: #e6e5e5;
+  }
+  .navbar {
+  background-color: white;
+    display: flex;
+  }
+  .navbar-brand .navbar-item {
+    color: #021315;
+  }
+  .home {
+    text-decoration: none;
+    text-align: center;
+  }
+  #socials {
+    font-size: large;
+    text-decoration: none;
+  }
+  /* About us */
+  .about {
+    text-align: center;
+  }
+  hr {
+    color: red;
+    width: 5%;
+    margin: auto;
+  }
+  .year {
+    font-size: 500px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 15px;
+  }
+  .card {
+    margin: 100px 0px 30px 300px;
+    box-shadow: 5px 5px 8px rgb(108, 108, 108);
+  }
+  .card2 {
+    margin: 100px 0px 30px 900px;
+    box-shadow: 5px 5px 8px rgb(108, 108, 108);
+  }
+.team {
+  text-align: center;
+  margin-top: 100px;
+}
+.staf {
+  display: flex;
+  justify-content: center;
+}
+.staf img {
+  height: 140px;
+  width: 140px;
+ margin: 50px;
+}
+.last {
+  margin-right: 0;
+}
